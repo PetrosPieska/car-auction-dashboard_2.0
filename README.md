@@ -1,11 +1,11 @@
-🔥 Car Auction Dashboard — Frontend Portfolio Project
+**Car Auction Dashboard 2.0**
 
 A modern, responsive car auction interface built with React, TypeScript, Vite, Tailwind, and Zustand.
 The project demonstrates real-world frontend capabilities: listing views, filters, data-driven UI, custom components, detail pages, and interactive bidding simulation.
 
 Perfect as a portfolio showcase for frontend development roles.
 
-🚀 Live Demo
+Live Demo: 
 
 👉 https://YOUR_DEPLOY_URL_HERE
 
