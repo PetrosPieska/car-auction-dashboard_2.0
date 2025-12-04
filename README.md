@@ -1,75 +1,107 @@
-# React + TypeScript + Vite
+🔥 Car Auction Dashboard — Frontend Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive car auction interface built with React, TypeScript, Vite, Tailwind, and Zustand.
+The project demonstrates real-world frontend capabilities: listing views, filters, data-driven UI, custom components, detail pages, and interactive bidding simulation.
 
-Currently, two official plugins are available:
+Perfect as a portfolio showcase for frontend development roles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Live Demo
 
-## React Compiler
+👉 https://YOUR_DEPLOY_URL_HERE
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+📸 Preview
+<img width="1920" height="884" alt="cad" src="https://github.com/user-attachments/assets/d440c02e-a526-44c5-8ae3-eea7f96e7854" />
 
-Note: This will impact Vite dev & build performances.
+<img width="1905" height="873" alt="cad2" src="https://github.com/user-attachments/assets/7250bc93-b2a7-4d78-a82a-c72c2e21070d" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ Key Features
+ Car Listing Page
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Responsive grid of car cards
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Image, price, mileage, fuel type, and key features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Hover interactions & subtle animations
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Router-based navigation to detail view
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+ Advanced Filtering
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Built with Zustand global store:
+
+Search by make, model, location
+
+Fuel type filter (Electric, Hybrid, Diesel…)
+
+Transmission filter
+
+Interactive price slider using rc-slider
+
+Real-time UI update & car count indicator
+
+“Reset filters” button
+
+ Car Detail Page
+
+Large hero image
+
+Technical specifications (mileage, year, fuel, transmission, asking price)
+
+Feature tags
+
+Clean UI with modern design system
+
+ Bid Simulation (Frontend-only)
+
+Display highest current bid
+
+Validates the user’s new bid
+
+Shows success or error feedback
+
+All interactions happen client-side (no backend)
+
+ Dashboard
+
+Summarizes mock inventory:
+
+Average asking price
+
+Average mileage
+
+Distribution by fuel type
+
+Distribution by location
+
+Simple but effective horizontal bar visualizations
+
+ Tech Stack
+Core
+
+React 18
+
+TypeScript
+
+Vite
+
+React Router
+
+Zustand (state management)
+
+Styling
+
+Tailwind CSS
+
+Custom color theme (dark UI + accent colors)
+
+Fully responsive with modern layout techniques
+
+Components
+
+rc-slider (price range slider)
+
+Custom cards, lists, KPI stats, visual bars
+
+
+
