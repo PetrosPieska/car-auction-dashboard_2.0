@@ -1,13 +1,12 @@
 **Car Auction Dashboard 2.0**
 
-A modern, responsive car auction interface built with React, TypeScript, Vite, Tailwind, and Zustand.
-The project demonstrates real-world frontend capabilities: listing views, filters, data-driven UI, custom components, detail pages, and interactive bidding simulation.
+Car Auction Dashboard is a modern frontend application built with React, TypeScript, Vite, Tailwind CSS and Zustand.
+The project showcases practical UI development skills: data-driven components, filtering, routing, detail views, dashboard insights and an interactive bidding simulation.
+It is designed as a clean, modern example for a frontend portfolio.
 
-Perfect as a portfolio showcase for frontend development roles.
 
-Live Demo: 
+Live Demo: https://petrospieska.github.io/car-auction-dashboard_2.0/
 
-👉 https://YOUR_DEPLOY_URL_HERE
 
 📸 Preview
 <img width="1920" height="884" alt="cad" src="https://github.com/user-attachments/assets/d440c02e-a526-44c5-8ae3-eea7f96e7854" />
@@ -15,71 +14,63 @@ Live Demo:
 <img width="1905" height="873" alt="cad2" src="https://github.com/user-attachments/assets/7250bc93-b2a7-4d78-a82a-c72c2e21070d" />
 
 
- Key Features
- Car Listing Page
+
+**Features**
+Car Listing Page
 
 Responsive grid of car cards
 
-Image, price, mileage, fuel type, and key features
+Car images, price, mileage, fuel type, transmission and key features
 
-Hover interactions & subtle animations
+Clickable cards with routing to detail pages
 
-Router-based navigation to detail view
+Dynamic filtering using Zustand global store
 
- Advanced Filtering
+Search, fuel type filter, transmission filter
 
-Built with Zustand global store:
+Price range slider
 
-Search by make, model, location
+Real-time updates to results and item count
 
-Fuel type filter (Electric, Hybrid, Diesel…)
+**Car Detail Page**
+Large header image
 
-Transmission filter
-
-Interactive price slider using rc-slider
-
-Real-time UI update & car count indicator
-
-“Reset filters” button
-
- Car Detail Page
-
-Large hero image
-
-Technical specifications (mileage, year, fuel, transmission, asking price)
+Vehicle specifications (year, mileage, price, fuel type, transmission)
 
 Feature tags
 
-Clean UI with modern design system
+Clean and structured layout
 
- Bid Simulation (Frontend-only)
+Interactive bidding simulation (frontend only) with validation and visual feedback
 
-Display highest current bid
+**Dashboard**
 
-Validates the user’s new bid
+Overview of the entire car inventory
 
-Shows success or error feedback
+Average asking price, average mileage, average model year
 
-All interactions happen client-side (no backend)
+Distribution charts for fuel types and locations
 
- Dashboard
+Simple horizontal bar visualizations implemented with CSS
 
-Summarizes mock inventory:
+Provides a lightweight "data dashboard" feel without external chart libraries
 
-Average asking price
+**General**
 
-Average mileage
+Fully responsive layout
 
-Distribution by fuel type
+Component-based architecture
 
-Distribution by location
+Centralized filter state with Zustand
 
-Simple but effective horizontal bar visualizations
+Custom Tailwind theme with extended color palette
 
- Tech Stack
+Router-based navigation (React Router)
+
+Tech Stack
 Core
 
-React 18
+React
 
 TypeScript
 
@@ -87,21 +78,21 @@ Vite
 
 React Router
 
-Zustand (state management)
+Zustand
 
 Styling
 
 Tailwind CSS
 
-Custom color theme (dark UI + accent colors)
+Custom color theme
 
-Fully responsive with modern layout techniques
+Responsive layout utilities
 
-Components
+Component-level styling patterns
 
-rc-slider (price range slider)
+Utilities
 
-Custom cards, lists, KPI stats, visual bars
+rc-slider for the price slider
 
-
+gh-pages for deployment
 
