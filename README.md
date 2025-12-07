@@ -1,47 +1,43 @@
-**Car Auction Dashboard 2.0**
-
+**Car Auction Dashboard**
 Car Auction Dashboard is a modern frontend application built with React, TypeScript, Vite, Tailwind CSS and Zustand.
-The project showcases practical UI development skills: data-driven components, filtering, routing, detail views, dashboard insights and an interactive bidding simulation.
-It is designed as a clean, modern example for a frontend portfolio.
+It showcases practical, production-oriented UI development skills: data-driven components, filtering, routing, detail views, dashboard insights, and an interactive bidding simulation.
 
+This project serves as a clean and modern example of professional frontend engineering for a developer portfolio.
 
-Live Demo: https://petrospieska.github.io/car-auction-dashboard_2.0/
-## Storybook (UI Documentation)
+🔗 Live Demo:
+https://petrospieska.github.io/car-auction-dashboard_2.0/
 
-The key UI components of this project are documented and published via Chromatic:
+📘 Storybook (UI Documentation)
 
+The key UI components of this project are documented and published via Chromatic.
 
- **Live Storybook:**  
+🔗 Live Storybook:
 https://6935798bcb84e5708840abe1-dxiaiyvrod.chromatic.com/
 
-This Storybook contains:
-- **CarCard** component (based on a custom Figma design)
-- Multiple stories (Default, LongTitle, NoImage)
-- A fully documented design → code → documentation workflow
-- Visual regression support via Chromatic CI
+This Storybook includes:
 
-This demonstrates the component-driven workflow required in modern frontend
-development and matches Autovex’s job requirement of building and maintaining
-reusable UI components with Storybook.
+CarCard component (based on a custom Figma design)
 
+Multiple story variants (Default, LongTitle, NoImage)
+
+A full Figma → React → Storybook workflow
+
+Visual regression testing powered by Chromatic CI
+
+This demonstrates a component-driven development workflow, matching Autovex’s job requirement of building and maintaining reusable UI components with Storybook.
 
 📸 Preview
-<img width="1920" height="884" alt="cad" src="https://github.com/user-attachments/assets/d440c02e-a526-44c5-8ae3-eea7f96e7854" />
-
-<img width="1905" height="873" alt="cad2" src="https://github.com/user-attachments/assets/7250bc93-b2a7-4d78-a82a-c72c2e21070d" />
-
-
-
-**Features**
+<img width="1920" height="884" alt="cad" src="https://github.com/user-attachments/assets/d440c02e-a526-44c5-8ae3-eea7f96e7854" /> <img width="1905" height="873" alt="cad2" src="https://github.com/user-attachments/assets/7250bc93-b2a7-4d78-a82a-c72c2e21070d" />
+🚗 Features
 Car Listing Page
 
 Responsive grid of car cards
 
-Car images, price, mileage, fuel type, transmission and key features
+Images, price, mileage, fuel type, transmission and key features
 
 Clickable cards with routing to detail pages
 
-Dynamic filtering using Zustand global store
+Dynamic filtering using Zustand state
 
 Search, fuel type filter, transmission filter
 
@@ -49,10 +45,11 @@ Price range slider
 
 Real-time updates to results and item count
 
-**Car Detail Page**
+Car Detail Page
+
 Large header image
 
-Vehicle specifications (year, mileage, price, fuel type, transmission)
+Year, mileage, price, fuel type, transmission
 
 Feature tags
 
@@ -60,19 +57,19 @@ Clean and structured layout
 
 Interactive bidding simulation (frontend only) with validation and visual feedback
 
-**Dashboard**
+Dashboard
 
-Overview of the entire car inventory
+Overview of the car inventory
 
-Average asking price, average mileage, average model year
+Average asking price, mileage and model year
 
-Distribution charts for fuel types and locations
+Fuel type and location distribution
 
-Simple horizontal bar visualizations implemented with CSS
+Lightweight charts built with simple CSS
 
-Provides a lightweight "data dashboard" feel without external chart libraries
+Provides a “data dashboard” feel without external chart libraries
 
-**General**
+General
 
 Fully responsive layout
 
@@ -82,9 +79,9 @@ Centralized filter state with Zustand
 
 Custom Tailwind theme with extended color palette
 
-Router-based navigation (React Router)
+React Router navigation
 
-Tech Stack
+🛠 Tech Stack
 Core
 
 React
@@ -103,13 +100,12 @@ Tailwind CSS
 
 Custom color theme
 
-Responsive layout utilities
+Responsive utility-based layout
 
-Component-level styling patterns
+Component-level styling techniques
 
 Utilities
 
-rc-slider for the price slider
+rc-slider for price slider
 
 gh-pages for deployment
-
