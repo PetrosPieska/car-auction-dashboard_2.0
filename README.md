@@ -7,7 +7,7 @@ This project serves as a clean and modern example of professional frontend engin
 🔗 Live Demo:
 https://petrospieska.github.io/car-auction-dashboard_2.0/
 
-📘 Storybook (UI Documentation)
+## 📘 Storybook (UI Documentation)
 
 The key UI components of this project are documented and published via Chromatic.
 
