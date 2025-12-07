@@ -6,6 +6,23 @@ It is designed as a clean, modern example for a frontend portfolio.
 
 
 Live Demo: https://petrospieska.github.io/car-auction-dashboard_2.0/
+## Storybook (UI Documentation)
+
+The key UI components of this project are documented and published via Chromatic:
+
+
+ **Live Storybook:**  
+https://6935798bcb84e5708840abe1-dxiaiyvrod.chromatic.com/
+
+This Storybook contains:
+- **CarCard** component (based on a custom Figma design)
+- Multiple stories (Default, LongTitle, NoImage)
+- A fully documented design → code → documentation workflow
+- Visual regression support via Chromatic CI
+
+This demonstrates the component-driven workflow required in modern frontend
+development and matches Autovex’s job requirement of building and maintaining
+reusable UI components with Storybook.
 
 
 📸 Preview
